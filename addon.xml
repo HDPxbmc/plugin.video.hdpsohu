@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.hdpsohu"
+  name="HDP搜狐视频"
+  version="0.1.3"
+  provider-name="Wenl">
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>HDPfans sohu</summary>
+    <summary lang="zh">HDPfans搜狐视频</summary>
+    <description>Sohu video collected by HDPfans</description>
+    <description lang="zh">HDPfans聚合的搜狐视频</description>
+    <disclaimer>For demonstration only</disclaimer>
+  </extension>
+</addon>
